@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<manifest
+  identifier="ZluGgh5H5eY3B1DO1ZIBcdPGa9VFEZy9MSKR8DP7"
+  version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd"
+>
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Recibir y buscar retroalimentación</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Recibir y buscar retroalimentación</title>
+        <adlcp:datafromlms>datafromlms</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="indexAPI.html">
+      
+        <file href="indexAPI.html" />
+      
+    </resource>
+  </resources>
+</manifest>
